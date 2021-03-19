@@ -269,7 +269,7 @@ class Yihai:
         return e
 
     @staticmethod
-    def LoadCarTypeData_html(self, text, ws, store, scrapy_time,city):
+    def LoadCarTypeData_html(self, text, ws, store, scrapy_time, city):
         """
         解析HTML
         :param city:
@@ -301,7 +301,7 @@ class Yihai:
             print("车型:" + car_name)
             print("价格:" + price)
             print("配置:" + config_text)
-            ws.append((city[1],store[1], scrapy_time[0], scrapy_time[2], car_name, config_text, price))
+            ws.append((city[1], store[1], scrapy_time[0], scrapy_time[2], car_name, config_text, price))
 
     @staticmethod
     def dealwith_html(text):

@@ -117,7 +117,7 @@ def main():
                 pailiang = car_box[12].text.replace('排量(ml)：', '')
                 ranliao = car_box[19].text.replace('燃料种类：', '')
 
-                chuchangjiage=''
+                chuchangjiage = ''
                 jibie = ''
                 niankuan = ''
                 zuoweishu = ''
